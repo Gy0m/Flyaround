@@ -8,6 +8,7 @@ services:
             - ~
             - WCS\CoavBundle\Entity\Terrain
             - ~
+
     app.admin.flight:
         class: WCS\CoavBundle\Admin\FlightAdmin
         tags:
@@ -16,6 +17,7 @@ services:
             - ~
             - WCS\CoavBundle\Entity\Flight
             - ~
+
     app.admin.planemodel:
             class: WCS\CoavBundle\Admin\PlaneModelAdmin
             tags:
@@ -24,6 +26,7 @@ services:
                 - ~
                 - WCS\CoavBundle\Entity\PlaneModel
                 - ~
+
     app.admin.reservation:
                 class: WCS\CoavBundle\Admin\ReservationAdmin
                 tags:
@@ -32,6 +35,7 @@ services:
                     - ~
                     - WCS\CoavBundle\Entity\Reservation
                     - ~
+
     app.admin.user:
                     class: WCS\CoavBundle\Admin\UserAdmin
                     tags:
