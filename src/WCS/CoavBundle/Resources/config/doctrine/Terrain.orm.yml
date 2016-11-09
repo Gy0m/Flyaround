@@ -30,8 +30,8 @@ WCS\CoavBundle\Entity\Terrain:
     oneToMany:
         departures:
           targetEntity: WCS\CoavBundle\Entity\Flight
-          mappedBy: departures
+          mappedBy: departure
 
         arrivals:
           targetEntity: WCS\CoavBundle\Entity\Flight
-          mappedBy: arrivals
+          mappedBy: arrival

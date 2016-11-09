@@ -15,7 +15,7 @@ class FlightAdmin extends Admin
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->add('departures')
+            ->add('departure')
             ->add('arrival')
             ->add('pilot')
             ->add('freeSeats')
@@ -28,7 +28,7 @@ class FlightAdmin extends Admin
     protected function configureDatagridFilters(DatagridMapper $datagridMapper)
     {
         $datagridMapper
-            ->add('departures')
+            ->add('departure')
             ->add('arrival')
             ->add('pilot')
             ->add('freeSeats')
@@ -41,7 +41,7 @@ class FlightAdmin extends Admin
     protected function configureListFields(ListMapper $listMapper)
     {
         $listMapper
-            ->add('departures')
+            ->add('departure')
             ->add('arrival')
             ->add('pilot')
             ->add('freeSeats')
@@ -62,7 +62,7 @@ class FlightAdmin extends Admin
     {
         $showMapper
             ->add('id')
-            ->add('departures')
+            ->add('departure')
             ->add('arrival')
             ->add('pilot')
             ->add('freeSeats')
